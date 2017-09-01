@@ -1,0 +1,8 @@
+command line options in git;
+
+git clone "href"; for downloading the repository
+git status; shows what's in the repository
+git add; adds a specific file to the repository
+git commit -m "message here"; what was modified in the file and saved.
+git push; upload the repository to gitHUB or any where else
+git pull; downlaod the modified files/new files.

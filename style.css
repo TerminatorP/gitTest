@@ -1,0 +1,47 @@
+
+/*
+stands for "root em". ... The em unit is relative to the font-size of the parent, which causes the compounding issue. The rem unit is relative to the root—or the html —element
+*/
+
+html,
+body{
+	height: 100%;
+}
+img{
+	max-width: 100%;
+}
+/*cover*/
+#cover{
+	background: #222 url('img/stars.jpg') center center no-repeat;
+	background-size: cover;
+	color: white;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+#cover-caption{
+	width: 100%;
+}
+form{
+	justify-content: center;
+}
+.section-content{
+	padding: 5rem 0;
+}
+#about{
+	background: url('img/girlincar.jpg') center center no-repeat;
+	background-size: cover;
+}
+.about-text{
+	background: rgba(0,0,0,0.8);
+	color: white;
+	padding: 1.875rem;
+}
+#footer-main{
+	background: #222;
+	color: white;
+	font-size: 0.8rem;
+	padding: 2.5rem 0;
+}
