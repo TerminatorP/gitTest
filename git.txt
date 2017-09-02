@@ -6,3 +6,5 @@ git add; adds a specific file to the repository
 git commit -m "message here"; what was modified in the file and saved.
 git push; upload the repository to gitHUB or any where else
 git pull; downlaod the modified files/new files.
+
+get out of paragraph message esc ; wq;
